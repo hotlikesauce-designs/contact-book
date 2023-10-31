@@ -10,6 +10,8 @@ task(:sample_contacts => :environment) do
     Contact.destroy_all
   end
 
+  Contact.
+
   200.times do
     x = Contact.new
 
